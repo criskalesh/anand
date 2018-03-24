@@ -1,0 +1,76 @@
+<div id="content-container" style=" height:1800px;"> 
+	
+	<script>
+	$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+		event.preventDefault();
+		return $(this).ekkoLightbox({
+            always_show_close: true,
+            gallery_parent_selector: '.gallery1',
+    });
+	});
+	</script>
+
+	<div id="block-content">
+		<h2>Ayurveda and Yoga</h2>
+		<br/><br/>
+ 	<div ng-controller="CarouselDemoCtrl">
+      <div>
+        <carousel interval="myInterval">
+          <slide ng-repeat="slide in slides" active="slide.active">
+            <img ng-src="{{slide.image}}" style="margin:auto;">
+            <div class="carousel-caption">             
+            </div>
+          </slide>
+        </carousel>
+      </div>
+    </div>	
+	<h3 style="color: #ae611c;">Ayurveda - harmony of body, mind and soul</h3>
+	<div id="block-row" style="min-height: 90px;">			
+		<div id="block-span-content" style="width: 100%;"> <p>Sprouted in the pristine land of India some 5000 years ago, Ayurveda, the science of life and longevity, is the oldest healthcare system in the world and it combines the profound thoughts of medicine and philosophy. Since then Ayurveda has stood for the wholesome physical, mental and spiritual growth of humanity around the world. Today, it's a unique, indispensable branch of medicine, a complete naturalistic system that depends on the diagnosis of your body's humours - vata, pitta and kapha - to achieve the right balance. 
+		</p></div>
+	</div>
+	<h3 style="color: #ae611c;">Kerala - The Land of Ayurveda</h3>
+	<div id="block-row" style="min-height: 145px;">			
+		<div id="block-span-content" style="width: 100%;"> <p>Kerala's equable climate, natural abundance of forests (with a wealth of herbs and medicinal plants), and the cool monsoon season (June – November) are best suited for Ayurveda’s curative and restorative programs. In fact, today Kerala is the only state in India, which practices this system of medicine with absolute dedication.		
+		</p>
+		<p>Rejuvenate your body, mind and soul by taking Ayurveda treatment atleast once in your life time.		
+		</p>
+		<p>You can take body rejuvenation treatment for seven days, 14 days or 28 days. If you have specific disease, please mail us and we will send you the treatment and the duration.	
+		</p>
+	</div>
+	</div>	
+
+	<h3 style="color: #ae611c;">Our Treatment Principles</h3>
+	<div id="block-row" style="min-height: 235px;">			
+		<div id="block-span-content" style="width: 100%;"> <p>There has been a phenomenal increase in the demand for the specialized therapies of Ayurveda particularly panchakarma, not only for the treatment of diseases but also for preventive & promoting health. As a result many health centers and resorts are providing these therapies but it should be done only by a proper examination, proper planning, and proper guidance. We focus on restoring the natural harmony of your body and mind. During the first consultation at Swastha; our Ayurveda center, our doctors will ask for your medical history and do the examinations based on Ayurveda ( Darshana- Inspection and observations, Sparshana- Palpation, percussion, auscultation, Prashna – Interrogation like general state of health with special focus on your lifestyle, diet, habits, and environmental surroundings) 	
+		</p>
+		<p>You can choose different Ayurveda packages at the resort and also decide whether you want to enjoy one-time leisurely massages or select any of the long-term packages available at the Ayurvedic center. Yogasanas and Ayurvedic treatments have been a part of India’s culture and tradition for generations, if not centuries. They are known for their specific ability to heal ailments and rejuvenate the human body, without using chemicals or foreign products that might adversely affect your body.
+		</p>
+		<p>In case you would like to arrange a translator during your stay, kindly inform reservations while making your booking.	
+		</p>
+		</div>
+	</div>	
+
+	<h3 style="color: #ae611c;">Your Ayurveda Experience</h3>
+	<div id="block-row" style="min-height: 145px;">			
+		<div id="block-span-content" style="width: 100%;"> <p>All guests who booked Ayurvedic treatment packages are initially examined by our resident doctor, who prescribes therapies and treatments if needed and makes suggestions about special Ayurveda packages available at the Punnamada Resort. The packages usually involve a daily two-hour session during a few days and up to three weeks, depending on the treatment. The treatments also includes a complete yoga and meditation session that comes along with a prescribed diet chart. Guests can select the package that has been prescribed to them specifically, or the one that they feel best suited to themselves.	
+		</p>
+		<p>You can take body rejuvenation treatment for seven days, 14 days or 28 days. If you have specific disease, please mail us and we will send you the treatment and the duration.
+		</p>
+		</div>
+	</div>
+
+	<h3  style="color: #ae611c;">Image Tour</h3>		   	
+	<div class="gallery1">			
+		   <a href="/images/veda1.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-4">
+				<img src="/images/veda1.jpg" class="img-responsive" style="height: 145px; width: 250px;">
+			</a>
+			<a href="/images/veda2.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-4">
+				<img src="/images/veda2.jpg" class="img-responsive" style="height: 145px;  width: 250px;">
+			</a>
+			<a href="/images/veda3.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-4">
+				<img src="/images/veda3.jpg" class="img-responsive" style="height: 145px;  width: 250px;">
+			</a>			
+	</div>
+	</div>
+</div>
